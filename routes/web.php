@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/neg-index', function () {
+  return view('neg-index');
+});
